@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMastery.Domain", "EFCoreMastery.Domain\EFCoreMastery.Domain.csproj", "{FD94C5EC-CD44-44DB-A8C3-5C7C5CBAC865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMastery.Persistence", "EFCoreMastery.Persistence\EFCoreMastery.Persistence.csproj", "{819355D9-4944-4BF6-B1A5-CEE49655C1B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMastery.WebApp", "EFCoreMastery.WebApp\EFCoreMastery.WebApp.csproj", "{6FC94E52-7745-42B1-B364-CECA4A9EF50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMastery.Services", "EFCoreMastery.Services\EFCoreMastery.Services.csproj", "{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\new-migration.ps1 = scripts\new-migration.ps1
+		scripts\remove-migration.ps1 = scripts\remove-migration.ps1
+		scripts\rollback-last-migration.ps1 = scripts\rollback-last-migration.ps1
+		scripts\update-db.ps1 = scripts\update-db.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD94C5EC-CD44-44DB-A8C3-5C7C5CBAC865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD94C5EC-CD44-44DB-A8C3-5C7C5CBAC865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD94C5EC-CD44-44DB-A8C3-5C7C5CBAC865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD94C5EC-CD44-44DB-A8C3-5C7C5CBAC865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819355D9-4944-4BF6-B1A5-CEE49655C1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819355D9-4944-4BF6-B1A5-CEE49655C1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819355D9-4944-4BF6-B1A5-CEE49655C1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819355D9-4944-4BF6-B1A5-CEE49655C1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC94E52-7745-42B1-B364-CECA4A9EF50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC94E52-7745-42B1-B364-CECA4A9EF50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC94E52-7745-42B1-B364-CECA4A9EF50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC94E52-7745-42B1-B364-CECA4A9EF50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77E45C8C-671D-4BE2-9F6A-BB738AE9727C}
+	EndGlobalSection
+EndGlobal

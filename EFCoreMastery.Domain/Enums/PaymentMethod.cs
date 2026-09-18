@@ -1,0 +1,9 @@
+﻿namespace EFCoreMastery.Domain.Enums
+{
+    public enum PaymentMethod
+    {
+        CreditCard = 1,
+        BankTransfer = 2,
+        Crypto = 3
+    }
+}
