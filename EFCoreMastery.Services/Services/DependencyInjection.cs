@@ -23,6 +23,9 @@ namespace EFCoreMastery.Services.Services
             services.AddScoped<IGetCategoryReportService, GetCategoryReportService>();
             services.AddScoped<IGetVIPCustomerReportService, GetVIPCustomerReportService>();
             services.AddScoped<ISearchProductsByNameService, SearchProductsByNameService>();
+            services.AddScoped<IGetTopExpensiveProductsService, GetTopExpensiveProductsService>();
+            services.AddScoped<IGetPagedProductsService, GetPagedProductsService>();
+            services.AddScoped<IGetPagedProductsBySearchService, GetPagedProductsBySearchService>();
             return services;
         }
     }
