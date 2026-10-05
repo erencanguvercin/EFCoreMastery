@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFCoreMastery.Domain\EFCoreMastery.Domain.csproj" />
+    <ProjectReference Include="..\EFCoreMastery.Services\EFCoreMastery.Services.csproj" />
   </ItemGroup>
 
 </Project>

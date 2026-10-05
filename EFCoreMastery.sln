@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{02EA
 		scripts\update-db.ps1 = scripts\update-db.ps1
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{23DF8310-434A-44BC-A2F5-8A08A069725B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreMastery.Services.Tests", "EFCoreMastery.Services.Tests\EFCoreMastery.Services.Tests.csproj", "{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,9 +45,16 @@ Global
 		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75F1AFC3-09E0-4B25-85D2-52D728ADB7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8577011C-4ED3-4B8E-8FB5-6B3A7F53E80C} = {23DF8310-434A-44BC-A2F5-8A08A069725B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77E45C8C-671D-4BE2-9F6A-BB738AE9727C}

@@ -2,6 +2,7 @@
 {
     public class PagedResultDto<T>
     {
+
         public PagedResultDto()
         {
             Items = Array.Empty<T>();

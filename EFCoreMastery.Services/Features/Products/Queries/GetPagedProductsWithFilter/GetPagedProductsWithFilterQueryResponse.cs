@@ -1,6 +1,6 @@
-﻿namespace EFCoreMastery.Services.DTOs.Product
+﻿namespace EFCoreMastery.Services.Features.Products.Queries.GetPagedProductsWithFilter
 {
-    public class ProductListDto
+    public class GetPagedProductsWithFilterQueryResponse
     {
         public int Id { get; init; }
         public string Name { get; init; } = string.Empty;
